@@ -156,7 +156,7 @@ const Topic = ({ topic, setCurrentTopic }) => {
   return (
     <li>
       <button
-        className="btn btn-category "
+        className="btn btn-topic "
         onMouseEnter={(e) => {
           e.target.style.backgroundColor = topic.color;
           e.target.style.color = "#1e1a23";

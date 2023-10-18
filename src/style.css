@@ -78,7 +78,7 @@ ul {
   font-size: 16px;
   cursor: pointer;
 }
-.btn:hover {
+.btn-action:hover {
   background-color: #85e8b0;
   color: #1e1a23;
 }
@@ -120,7 +120,7 @@ ul {
 .vote-buttons button:disabled {
   background-color: #1e1a23;
 }
-.btn-category,
+.btn-topic,
 .btn-all {
   color: #85e8b0;
   background-color: transparent;
@@ -182,7 +182,7 @@ ul {
   display: flex;
   gap: 16px;
 }
-.btn-category:hover,
+.btn-topic:hover,
 .btn-all:hover {
   color: black;
   background-color: #85e8b0;
@@ -249,8 +249,10 @@ ul {
     height: auto;
   }
   .btn-all,
-  .btn-category {
+  .btn-topic {
     width: fit-content;
+    height: fit-content;
+    padding: 8px 12px;
     font-size: 14px;
   }
   .main aside ul {
@@ -283,13 +285,16 @@ ul {
     bottom: 16px;
     left: 20px;
   }
+  body {
+    padding: 48px 30px;
+  }
 }
 @media (max-width: 550px) {
   body {
-    padding: 48px 24px;
+    padding: 48px 20px;
   }
 
   h1 {
-    font-size: 24px;
+    font-size: 20px;
   }
 }
